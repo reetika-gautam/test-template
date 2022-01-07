@@ -1,0 +1,85 @@
+.banner{
+    background-image: url('img/bg-img.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.navcont{
+    margin-top: 30px;
+}
+
+.cusnum{
+    float: right;
+}
+
+.cusnum span{
+    /* margin-right: 16px; */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bike-img{
+    height: 20px;
+}
+
+.topnavpart a{
+    color: black;
+    font-weight: 400;
+}
+
+.weeksection{
+    margin-top: 120px;
+}
+
+.headingpart{
+    display:flex;
+}
+
+.drinkimg{
+    position: relative;
+    top: -51px;
+    height: 403px;
+    left: 78px;
+}
+
+.friesimg{
+    position: relative;
+    top: 58px;
+    height: 250px;
+    right: 2px
+}
+
+.burgerimg{
+    position: absolute;
+    top: 298px;
+    height: 275px;
+    right: 231px;
+}
+
+.priceimg{
+    position: absolute;
+    left: 689px;
+    top: 463px;
+    height: 141px;
+}
+
+.pricetextimg{
+    position: absolute;
+}
+
+.imagecontent{
+    margin-top: 40px;
+}
+.sbone img{
+    width: 461px;
+    margin-left: 170px;
+}
+
+.subsbone img{
+    height: 151px;
+}
+
+.subsbtwo img{
+    margin-top: 23px;
+    height: 151px;
+}
