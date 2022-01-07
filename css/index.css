@@ -1,0 +1,57 @@
+.banner{
+    background-image: url('img/bg-img.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.navcont{
+    margin-top: 30px;
+}
+
+.cusnum{
+    float: right;
+}
+
+.cusnum span{
+    /* margin-right: 16px; */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bike-img{
+    height: 20px;
+}
+
+.topnavpart a{
+    color: black;
+    font-weight: 400;
+}
+
+.weeksection{
+    margin-top: 120px;
+}
+
+.headingpart{
+    display:flex;
+}
+
+.drinkimg{
+    position: relative;
+    top: 100px;
+    height: 100px;
+    right: 30px;
+}
+
+.friesimg{
+    position: relative;
+    top: 100px;
+    height: 156px;
+    right: 30px;
+}
+
+.burgerimg{
+    position: absolute;
+    top: 388px;
+    height: 122px;
+    right: 30px;
+}
