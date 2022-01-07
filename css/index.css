@@ -37,21 +37,49 @@
 
 .drinkimg{
     position: relative;
-    top: 100px;
-    height: 100px;
-    right: 30px;
+    top: -51px;
+    height: 403px;
+    left: 78px;
 }
 
 .friesimg{
     position: relative;
-    top: 100px;
-    height: 156px;
-    right: 30px;
+    top: 58px;
+    height: 250px;
+    right: 2px
 }
 
 .burgerimg{
     position: absolute;
-    top: 388px;
-    height: 122px;
-    right: 30px;
+    top: 298px;
+    height: 275px;
+    right: 231px;
+}
+
+.priceimg{
+    position: absolute;
+    left: 689px;
+    top: 463px;
+    height: 141px;
+}
+
+.pricetextimg{
+    position: absolute;
+}
+
+.imagecontent{
+    margin-top: 40px;
+}
+.sbone img{
+    width: 461px;
+    margin-left: 170px;
+}
+
+.subsbone img{
+    height: 151px;
+}
+
+.subsbtwo img{
+    margin-top: 23px;
+    height: 151px;
 }
