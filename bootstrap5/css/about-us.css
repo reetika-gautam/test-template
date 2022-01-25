@@ -2,6 +2,10 @@
     background-color: #ebebeb;
 }
 
+.logosize{
+    height: 46px;
+}
+
 .enquirylist{
     list-style: none;
     float: left;
@@ -17,7 +21,51 @@
     background-color: #23282d;
 }
 
+.itemname{
+    font-size: 13px;
+}
+
+.navli a:hover{
+    color:#ffb600;
+}
+
 .mainimg{
-    background-image: url("bootstrap5/img/bg1.png");
-    min-height: 400px;
+    background-image: url("C:/Users/mypc/Desktop/awd/homepageburger/bootstrap5/img/bg1.PNG");
+    height: 369px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quotesec{
+    border-left: 1px solid #ffb600;
+}
+
+.bdil{
+    list-style: none;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+
+.bdil1{
+    list-style: none;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+
+.bdil::after{
+    content: "/";
+    color: white;
+    padding-left: 8px;
+}
+
+.imgfont{
+    font-size:60px;
+}
+
+.abtcontent{
+    left: 553px;
+    top: 130px;
 }
