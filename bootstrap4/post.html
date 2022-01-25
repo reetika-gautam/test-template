@@ -8,30 +8,61 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>post</title>
+
+    <style>
+        .postsection{
+            background-color: #D8E6ED;
+        }
+
+        .namedes{
+            top: 13px;
+            left: 524px;
+        }
+
+        .clientimg{
+            min-height: 100%;
+        }
+
+        .designtn{
+            font-size: 10px;
+        }
+
+        .regist{
+            color: #003366;
+                }
+
+        .datentime{
+            color: #404040;
+        }
+
+        .regbtn{
+            background-color: #ff8000;
+        }
+    </style>
   </head>
   <body>
-    <div class="postsection bg-info">
+    <div class="postsection">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     <img class="w-50 mt-5" src="img/logo.svg" alt="logo">
-                    <h1 class="mt-5 font-weight-bold">Register for our FREE webinar</h1>
+                    <h1 class="mt-5 font-weight-bold regist">Register for our FREE webinar</h1>
                     <p class="mt-5 text-secondary">Our General Manager, Neeru Nanda, will take you through a journey of success through technology by
                         showing you the winning formula for 2022.
                     </p>
-                    <h1 class="mt-5 font-weight-bold">"The circle of success"</h1>
+                    <h1 class="mt-5 font-weight-bold regist">"The circle of success"</h1>
                     <p class="mt-4 text-secondary">Learn how to protect your client's data, diversify your income, increase your productivity 
                         and much, much more.</p>
                     <div class="text-center mt-5">
-                        <span class="text-dark">Thursday 24th of February at 1.30 pm.</span><br/>
-                        <button class="btn btn-warning font-weight-bold text-white mt-3 rounded">Register now</button>
+                        <span class="datentime">Thursday 24th of February at 1.30 pm.</span><br/>
+                        <button class="regbtn btn font-weight-bold text-white mt-3 rounded">Register now</button>
                     </div>   
                 </div>
                 <div class="col-lg-6">
-                    <img class="position-relative" src="img/client.jpg" alt="client">
-                    <div class="position-absolute text-white font-weight-bold" >
-                        <p class="mb-1">Neeru Nanda</p>
-                        <p class="mb-1">GM | Hashching</p>
+                    <img class="position-relative clientimg" src="img/client.jpg" alt="client">
+                    <div class="position-absolute text-white namedes" >
+                        <h5 class="mb-1 font-weight-bold">Neeru Nanda</h5>
+                        <p class="mb-1 designtn">GM | Hashching</p>
                     </div>
                 </div>
             </div>
