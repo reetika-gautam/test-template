@@ -1,0 +1,23 @@
+.topnav{
+    background-color: #ebebeb;
+}
+
+.enquirylist{
+    list-style: none;
+    float: left;
+    border-right: 1px solid rgb(211,211,211);
+}
+
+.enquirylist1{
+    list-style: none;
+    float: left;
+}
+
+.navsection{
+    background-color: #23282d;
+}
+
+.mainimg{
+    background-image: url("bootstrap5/img/bg1.png");
+    min-height: 400px;
+}
