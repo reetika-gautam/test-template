@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>post</title>
 
     <style>
@@ -38,6 +41,41 @@
         .regbtn{
             background-color: #ff8000;
         }
+
+        .formsection{
+            height: 550px;
+            width: 420px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .reserve{
+            position: relative;
+            color: #696969;
+        }
+
+        .spot{
+            position: absolute;
+        }
+
+        .booking{
+            margin-bottom: 5px;
+            margin-top: 5px;
+            color: #808080;
+        }
+
+        .timing{
+            background-color: aliceblue;
+            font-weight: 500;
+        }
+
+        .spot{
+            position: absolute;
+            top: 6px;
+            right: 0px;
+            color: #DCDCDC;
+        }
+
     </style>
   </head>
   <body>
@@ -68,6 +106,42 @@
             </div>
         </div>
     </div>
+
+    <div class="mt-5">
+        <div class="formsection p-3 ml-5">
+            <div class="forminner">
+                <h2 class="reserve">Reserve a Spot<i class="fas fa-times spot"></i></h2>
+                
+                <div class="timing py-2">
+                    <span><i class="far fa-calendar px-2"></i>Sat 1 Jan  at 0:00 am | mins</span>
+                </div>
+                <p class="booking">Please confirm your booking details:</p>
+                <form>
+                    <div class="form-group pr-1">
+                        <label class="font-weight-bold" for="firstname">First Name<span>*</span></label> 
+                        <input type="text" class="form-control" id="firstname" required>
+                    </div>
+                    <div class="form-group pr-1">
+                        <label class="font-weight-bold" for="lastname">Last Name<span>*</span></label> 
+                        <input type="text" class="form-control" id="lastname" required>
+                    </div>
+                    <div class="form-group pr-1">
+                        <label class="font-weight-bold" for="email">Email<span>*</span></label> 
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group pr-1">
+                        <label class="font-weight-bold" for="mobile">Mobile<span>*</span></label> 
+                        <input type="text" class="form-control" id="mobile" required>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-warning text-white font-weight-bold br-0">Submit Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
