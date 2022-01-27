@@ -21,11 +21,11 @@
     background-color: #23282d;
 }
 
-.itemname{
+li .itemname{
     font-size: 13px;
 }
 
-.navli a:hover{
+li .itemname:hover{
     color:#ffb600;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .quotesec{
-    border-left: 1px solid #ffb600;
+    border-left: 3px solid #ffb600;
 }
 
 .bdil{
@@ -68,4 +68,30 @@
 .abtcontent{
     left: 553px;
     top: 130px;
+}
+
+.lft{
+    padding-left: 18px;
+    color: #D3D3D3;
+}
+
+.previcon{
+    background-color: black;
+    padding: 21px;
+    height: 18px;
+}
+
+.nexticon{
+    background-color: black;
+    padding: 21px;
+    height: 18px;
+}
+
+.captn{
+    top: 147px;
+    left: 168px;
+}
+
+.captncnt{
+    padding: 8px;
 }
