@@ -1,0 +1,64 @@
+.iconround{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.searchip{
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.searchbtn{
+    background-color: #4e9525;
+    width: 50px;
+    border-radius: 33px;
+}
+
+/* .formsec{
+    background-color: rgba(0, 0, 0, 0.05);
+} */
+
+.navsec{
+    background-color: #4e9525;
+}
+
+.tabstyle{
+    letter-spacing: 2px;
+}
+
+.learnbtn{
+    background-color: #4e9525;
+}
+
+.bannersec{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 380px;
+    position: relative;
+}
+
+.bannerhead{
+    font-size: 15px;
+    color: #fbd341;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 800;
+}
+
+.bannertitle{
+    font-size: 69px;
+    font-weight: 700;
+    color: white;
+}
+
+.bannertag{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bannercnt{
+    position:absolute;
+    left: 110px;
+}
