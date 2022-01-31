@@ -62,3 +62,12 @@
     position:absolute;
     left: 110px;
 }
+
+.blogimg{
+    height: 236px;
+}
+
+.blogcnt{
+    font-size: 17px;
+    color: gray;
+}
