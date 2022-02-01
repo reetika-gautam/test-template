@@ -77,7 +77,7 @@
     font-weight: bold;
 }
 
-.contactdpy{
+.contactdpy, .newssec{
     background-color: #4e9525;
 }
 
@@ -91,4 +91,93 @@
 
 .comtcnt{
     font-size: 18px;
+}
+
+.headingone{
+    color: #4e9525;
+}
+
+.headingtwo{
+    line-height: 3rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.headingcontent{
+    font-size: 17px;
+    color: gray;
+}
+
+.subbtn{
+    background-color: #396c1b;
+    border: none;
+    width: 130px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.eminput{
+    height: 50px;
+    width: 50%;
+    border: none;
+}
+
+.detaillist{
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    color: white;
+}
+
+.footerhead{
+    color: #fbd341;
+    font-size: 18px;
+}
+
+.footersec{
+    background-color: #252525;
+}
+
+.detaillist1{
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+} 
+
+.prsonimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.lawnservice{
+    font-size: 20px;
+    color: gray;
+}
+
+.service{
+    font-size: 19px;
+    color: gray;
+}
+
+.servicecnt{
+    box-shadow: 0px 10px 30px -4px rgb(0 0 0 / 15%);
+}
+
+.blogimg1{
+    height: 266px;
+}
+
+.caredet{
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background: #fff;
+    color: #000000;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    box-shadow: 0px 10px 30px -4px rgb(0 0 0 / 15%);
 }
