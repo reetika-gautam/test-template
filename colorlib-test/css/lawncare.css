@@ -7,12 +7,18 @@
     border: none;
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    position: relative;
 }
 
 .searchbtn{
     background-color: #4e9525;
     width: 50px;
     border-radius: 33px;
+    position: absolute;
+    height: 51px;
+    right: 186px;
 }
 
 .searchip::after{
@@ -32,9 +38,13 @@
     letter-spacing: 2px;
 }
 
+a:hover{
+    color: #fbd341;
+}
+
 .learnbtn{
     background-color: #4e9525;
-    height: 61px;
+    height: 44px;
 }
 
 .bannersec{
