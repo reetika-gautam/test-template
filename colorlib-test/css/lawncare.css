@@ -44,8 +44,23 @@
 
 .linkcnt a:hover{
     color: #fbd341 !important;
-    border-bottom: 1px solid #fbd341;
+    /* border-bottom: 1px solid #fbd341; */
     /* transition: 2s; */
+    /* background-color: #fbd341;
+    height: 2px;
+    padding-top: 10px; */
+}
+
+.linkcnt .tabstyle::before{
+    position: absolute;
+    height: 3px;
+    background-color: #fbd341;
+    width: 105px;
+    bottom: -15px;
+    left: 0px;
+    transition: all 0.3s ease;
+    content: '';
+    display: block;
 }
 
 .linkcnt a.active{
