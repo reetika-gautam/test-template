@@ -37,7 +37,7 @@
 }
 
 .linkcnt a{
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     /* transition-property: border; */
 }
 
@@ -51,13 +51,13 @@
     padding-top: 10px; */
 }
 
-.linkcnt .tabstyle::before{
+.linkcnt a:hover:before{
     position: absolute;
     height: 3px;
     background-color: #fbd341;
-    width: 105px;
+    width: 100px;
     bottom: -15px;
-    left: 0px;
+    left: 6px;
     transition: all 0.3s ease;
     content: '';
     display: block;
