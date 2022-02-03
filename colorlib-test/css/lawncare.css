@@ -36,16 +36,20 @@
     background-color: #4e9525;
 }
 
-.linkcnt .tabstyle{
+.linkcnt a{
     letter-spacing: 2px;
+    /* transition-property: border; */
 }
+
 
 .linkcnt a:hover{
-    color: #fbd341;
+    color: #fbd341 !important;
+    border-bottom: 1px solid #fbd341;
+    /* transition: 2s; */
 }
 
-.linkcnt a:active{
-    color: #fbd341;
+.linkcnt a.active{
+    color: #fbd341 !important;
 }
 
 .learnbtn{
