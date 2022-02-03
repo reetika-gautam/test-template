@@ -1,0 +1,29 @@
+.servicetitle{
+    float: left;
+    list-style: none;
+}
+
+.servicetitle1{
+    float: left;
+    list-style: none;
+}
+
+.servicetitle::after{
+    content: "/";
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
+
+.bannerctnt{
+    position: absolute;
+    left: 465px;
+    top: 195px;
+}
+
+.servicehead{
+    font-size: 65px;
+}
+
+.sesoname{
+    font-size: 30px;
+}
