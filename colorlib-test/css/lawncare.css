@@ -71,7 +71,8 @@
 
 .learnbtn{
     background-color: #4e9525;
-    height: 44px;
+    height: 57px;
+    width: 144px;
 }
 
 .bannersec{
@@ -116,7 +117,7 @@
 }
 
 .bloghead{
-    color: #4e9525;
+    color:#4e9525;
     font-weight: bold;
 }
 
@@ -195,17 +196,19 @@
 }
 
 .lawnservice{
-    font-size: 20px;
+    font-size: 18px;
     color: gray;
 }
 
 .service{
-    font-size: 19px;
+    font-size: 18px;
     color: gray;
 }
 
 .servicecnt{
     box-shadow: 0px 10px 30px -4px rgb(0 0 0 / 15%);
+    background-color: white;
+    width: 252px;
 }
 
 .blogimg1{
@@ -261,4 +264,8 @@
     color: #4e9525;
     font-weight: bold;
     font-size: 19px;
+}
+
+.servicecnt a.hover{
+    background-color: #4e9525;
 }
