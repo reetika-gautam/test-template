@@ -1,0 +1,36 @@
+.iconstyle{
+    padding: 20px;
+    background-color: #4e9525;
+    border-radius: 50%;
+    color: white;
+}
+
+.addresctnt{
+    color: #4e9525;
+}
+
+.addresctnt1{
+    color: gray;
+}
+
+.contactlbl{
+    color: #4e9525;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.msgnote{
+    color: gray;
+}
+
+.contactipt{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+}
+
+.msgbtn{
+    background-color: #4e9525;
+    color: white;
+    font-weight: 500;
+}
