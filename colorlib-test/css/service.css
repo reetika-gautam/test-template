@@ -9,7 +9,7 @@
 }
 
 .servicetitle::after{
-    content: "/";
+    content: ">";
     padding: 0px 10px 0px 10px;
     color: white;
 }
@@ -27,3 +27,4 @@
 .sesoname{
     font-size: 30px;
 }
+
