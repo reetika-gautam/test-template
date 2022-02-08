@@ -271,16 +271,33 @@
     width:250px;
 }
 
+/* .firstserpart .imgsty:hover{
+    background-color: #4e9525;
+} */
 
 .servicecnt a:hover{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #4e9525;
+    background-color: #4e9525;
     text-align: center;
     padding-top: 15px;
     color: white;
-    bottom: -23px;
+    bottom: -15px;
     left: 97px;
     position: absolute;
+}
+
+
+.servicecnt:hover > .imgsty{
+    background-color: #4e9525;
+}
+
+.servicecontent a:hover{
+    background-color: #4e9525;
+    color: white;
+}
+
+.caredet:hover > .arrowstyle{
+    background-color: #fbd341;
 }
