@@ -303,6 +303,7 @@
     color: white;
 }
 
-.caredet:hover + .arrowstyle:hover{
+.caredet:hover > .arrowstyle{
     background-color: #fbd341;
+    color: #4e9525;
 }
