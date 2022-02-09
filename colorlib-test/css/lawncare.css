@@ -71,8 +71,8 @@
 
 .learnbtn{
     background-color: #4e9525;
-    height: 57px;
-    width: 144px;
+    height: 38px;
+    width: 112px;
 }
 
 .bannersec{
@@ -114,6 +114,11 @@
 .blogcnt{
     font-size: 17px;
     color: gray;
+    padding: 0px 0px 0px 45px;
+}
+
+.media{
+    padding-left: 45px;
 }
 
 .bloghead{
@@ -349,3 +354,4 @@
     border-width: 10px 10px 0 10px;
     border-color: #4e9525 transparent ;
 }
+
