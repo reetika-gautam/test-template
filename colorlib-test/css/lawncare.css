@@ -211,10 +211,6 @@
     width: 252px;
 }
 
-.blogimg1{
-    height: 187px;
-}
-
 .caredet{
     text-decoration: none;
     font-size: 18px;
@@ -268,7 +264,7 @@
 
 
 .caroupic{
-    width:250px;
+    width:370px;
 }
 
 /* .firstserpart .imgsty:hover{
@@ -306,4 +302,50 @@
 .caredet:hover > .arrowstyle{
     background-color: #fbd341;
     color: #4e9525;
+}
+
+.seasonimgstyle{
+    width: 350px;
+    height: auto;
+}
+
+.blogimg1{
+    height: 262px;
+}
+
+.blogsec{
+    padding-right: 36px;
+}
+
+.manager{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.datesec{
+    background-color: #4e9525;
+    width: 142px;
+    height: 65px;
+    top: -64px;
+    left: 17px;
+}
+
+.dated{
+    font-size: 53px;
+}
+
+.yeard{
+    font-size: 15px;
+}
+
+.dated::after{
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #4e9525 transparent ;
 }
