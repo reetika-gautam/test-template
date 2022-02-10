@@ -117,7 +117,7 @@
     padding: 0px 0px 0px 45px;
 }
 
-.blogrecent{
+.blogrecent, .blogcntblog{
         font-size: 17px;
         color: gray;
 }
@@ -275,6 +275,7 @@
 
 .caroupic{
     width:370px;
+    margin-right: 2px;
 }
 
 /* .firstserpart .imgsty:hover{
@@ -316,11 +317,11 @@
 
 .seasonimgstyle{
     width: 350px;
-    height: auto;
+    height: 300px;
 }
 
 .blogimg1{
-    height: 262px;
+    height: 300px;
 }
 
 .blogsec{
