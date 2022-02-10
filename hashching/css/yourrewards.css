@@ -1,9 +1,3 @@
-.sidebarcnt{
-    width: 250px;
-    height: 100vh;
-    background-color: aqua;
-}
-
 .body{
     margin: 0;
     padding: 0;
@@ -67,7 +61,7 @@
 }
 
 .earnuptoimg1{
-    background-image: url("../img/Group 457.svg");
+    background-image: url("../img/123.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -115,6 +109,11 @@
     .pointint{
         font-size: 136px;
     }
+
+    .earnuptoctnt {
+        top: 95px;
+        left: 91px;
+    }
 }
 
 @media (max-width: 991px) { 
@@ -125,6 +124,19 @@
 
     .pointint{
         font-size: 136px;
+    }
+
+    .earnuptoimg{
+        height: 210px;
+    }
+
+    .earnuptoimg1{
+        height: 210px;
+    }
+
+    .earnuptoctnt {
+        top: 105px;
+        left: 136px;
     }
 }
 
@@ -138,6 +150,23 @@
     .pointint{
         font-size: 136px;
     }
+
+    .earnuptoimg {
+        height: 227px;
+    }
+
+    .earnuptoimg1{
+        height: 227px;
+    }
+
+    .earnuptoctnt {
+        top: 112px;
+        left: 57px;
+    }
+
+    .earnmore{
+        height: 232px;
+    }
 }
 
 @media (max-width: 575px){
@@ -148,5 +177,14 @@
 
     .pointint{
         font-size: 136px;
+    }
+
+    .earnuptoctnt {
+        top: 116px;
+        left: 158px;
+    }
+
+    .earnmore {
+        height: 185px;
     }
 }
