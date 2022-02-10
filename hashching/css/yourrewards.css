@@ -1,3 +1,9 @@
+.sidebarcnt{
+    width: 250px;
+    height: 100vh;
+    background-color: aqua;
+}
+
 .body{
     margin: 0;
     padding: 0;
@@ -11,14 +17,9 @@
     width: 100%;
 }
 
-.earnmore{
-    width: 355px;
-    height: 157px;
-    border-radius: 4px;
-}
 
 .earnpointcnt{
-    font: normal normal normal 14px/23px Arial;
+    font: normal normal normal 14px/27px Arial;
 }
 
 .earnpointtitle{
@@ -27,8 +28,8 @@
 }
 
 .earnuptoctnt{
-    top: 87px;
-    left: 92px;
+    top: 95px;
+    left: 117px;
 }
 
 .surveyctnt{
@@ -48,8 +49,46 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    background-clip: content-box;
     padding-bottom: 20px;
-    height: 270px;
+    /* height: 270px; */
+    margin-top: 10px;
+}
+
+.earnuptoimg{
+    background-image: url("../img/Group 455.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-clip: content-box;
+    padding-bottom: 20px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.earnuptoimg1{
+    background-image: url("../img/Group 457.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-clip: content-box;
+    padding-bottom: 20px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.earnmore{
+    /* width: 355px; */
+    /* height: 157px;
+    border-radius: 4px; */
+    background-image: url("../img/123.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-clip: content-box;
+    padding-bottom: 20px;
+    height: 193px;
+    border-radius: 5px;
     margin-top: 10px;
 }
 
