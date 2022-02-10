@@ -55,7 +55,7 @@
 
 .pointsec{
     top: 19px;
-    left: 569px;
+    left: 470px;
 }
 
 .pointint{
@@ -109,8 +109,7 @@
 @media (max-width: 576px){
     .pointsec {
         top: 31px;
-        left: 126px;
-        
+        left: 126px;   
     }
 
     .pointint{
