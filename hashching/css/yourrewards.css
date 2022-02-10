@@ -43,15 +43,77 @@
     font-weight: 700;
 }
 
+.pointbanner{
+    background-image: url("/hashching/img/Group 380.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 20px;
+    height: 270px;
+    margin-top: 10px;
+}
+
 .pointsec{
-    top: 60px;
-    left: -16px;
+    top: 19px;
+    left: 569px;
 }
 
 .pointint{
-    font-size: 117px;
+    font-size: 136px;
 }
 
 .rewardes{
     font-size: 20px;
+}
+
+@media (max-width: 1200px){
+    .pointsec {
+        top: 19px;
+        left: 380px;
+    }
+
+    .pointint{
+        font-size: 136px;
+    }
+}
+
+@media (max-width: 992px) { 
+    /* .banner1{
+        width:100%;
+        height: 100%;
+    } */
+
+    .pointsec {
+        top: 42px;
+        left: 260px;
+    }
+
+    .pointint{
+        font-size: 136px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .pointsec {
+        top: 31px;
+        left: 167px;
+    
+    }
+
+    .pointint{
+        font-size: 136px;
+    }
+}
+
+@media (max-width: 576px){
+    .pointsec {
+        top: 31px;
+        left: 126ppx;
+        
+    }
+
+    .pointint{
+        font-size: 136px;
+    }
 }
