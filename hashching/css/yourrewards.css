@@ -55,7 +55,7 @@
 
 .pointsec{
     top: 19px;
-    left: 470px;
+    left: 570px;
 }
 
 .pointint{
@@ -69,7 +69,7 @@
 @media (max-width: 1199px){
     .pointsec {
         top: 19px;
-        left: 380px;
+        left: 444px;
     }
 
     .pointint{
@@ -80,7 +80,7 @@
 @media (max-width: 991px) { 
     .pointsec {
         top: 42px;
-        left: 260px;
+        left: 387px;
     }
 
     .pointint{
@@ -91,7 +91,7 @@
 @media (max-width: 767px){
     .pointsec {
         top: 31px;
-        left: 167px;
+        left: 271px;
     
     }
 
@@ -103,7 +103,7 @@
 @media (max-width: 575px){
     .pointsec {
         top: 31px;
-        left: 126px;   
+        left: 179px;   
     }
 
     .pointint{
