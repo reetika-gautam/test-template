@@ -1,11 +1,44 @@
-.rewardsec{
-    background-color: #020441;
-    height: 100vh;
-    margin: 100vw;
+.body{
     margin: 0;
     padding: 0;
+}
+.rewardsec{
+    background-color: #020441;
+    /* height: 100vh; */
 }
 
 .banner1{
     width: 100%;
+}
+
+.earnmore{
+    width: 355px;
+    height: 157px;
+    border-radius: 4px;
+}
+
+.earnpointcnt{
+    font: normal normal normal 14px/23px Arial;
+}
+
+.earnpointtitle{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.earnuptoctnt{
+    top: 87px;
+    left: 92px;
+}
+
+.surveyctnt{
+    font-size: 9px;
+}
+
+.pointscount{
+    color: #F56735;
+}
+
+.earnhead{
+    font-weight: 700;
 }
