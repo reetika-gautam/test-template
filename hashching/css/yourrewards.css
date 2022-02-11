@@ -1,16 +1,21 @@
-.body{
+body{
     margin: 0;
     padding: 0;
-}
+    /* height: 100%; */
+}  
 .rewardsec{
     background-color: #020441;
-    height: 100vh; 
+    background-size: cover;
+    height: 610px;
 }
 
 .banner1{
     width: 100%;
 }
 
+.colspace{
+    margin-left: -12px;
+}
 
 .earnpointcnt{
     font: normal normal normal 14px/27px Arial;
@@ -31,7 +36,7 @@
 }
 
 .pointscount{
-    color: #F56735;
+    color: #ff8a23;
 }
 
 .earnhead{
@@ -39,7 +44,7 @@
 }
 
 .onclkbtn{
-    color: #F56735 !important;
+    color: #ff8a23 !important;
 }
 
 .indlist{
@@ -107,6 +112,19 @@
     overflow-x: hidden;
 }
 
+.gifttitle{
+    font-size: 15px;
+    color:#ff8a23;
+    font-weight: 600;
+}
+
+.redeembtn{
+    border: none;
+    color:#ff8a23;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+}
 
 .indlist::before{
     content:"";
@@ -263,5 +281,9 @@
 
     .earnmore {
         height: 185px;
+    }
+
+    .itemtwo{
+        margin-top: 20px;
     }
 }
