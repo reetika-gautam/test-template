@@ -27,8 +27,8 @@ body{
 }
 
 .earnuptoctnt{
-    top: 95px;
-    left: 117px;
+    top: 97px;
+    left: 125px;
 }
 
 .surveyctnt{
@@ -142,6 +142,7 @@ body{
     /* padding-bottom: 20px; */
     /* height: 270px; */
     margin-top: 10px;
+    border-radius: 21px;
 }
 
 .earnuptoimg{
@@ -164,8 +165,20 @@ body{
     padding-bottom: 20px;
     height: 200px;
     margin-top: 10px;
+    /* background-image: url("../img/123.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-clip: content-box;
+    padding-bottom: 20px;
+    height: 193px;
+    border-radius: 5px;
+    margin-top: 10px; */
 }
 
+.columnsec{
+    --bs-gutter-x: 0px;
+}
 .earnmore{
     /* width: 355px; */
     /* height: 157px;
@@ -179,6 +192,7 @@ body{
     height: 193px;
     border-radius: 5px;
     margin-top: 10px;
+    
 }
 
 .pointsec{
@@ -212,6 +226,9 @@ body{
 }
 
 @media (max-width: 991px) { 
+    .rewardsec{
+        height: 100pc;
+    }
     .pointsec {
         top: 42px;
         left: 387px;
@@ -223,15 +240,28 @@ body{
 
     .earnuptoimg{
         height: 210px;
+        background-size: contain;
     }
 
     .earnuptoimg1{
         height: 210px;
+        background-size: contain;
+    }
+
+    .colspace{
+        margin-left: 0px;
     }
 
     .earnuptoctnt {
         top: 105px;
         left: 136px;
+    }
+
+    .earnmore{
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 14px;
+}
     }
 }
 
@@ -275,8 +305,12 @@ body{
     }
 
     .earnuptoctnt {
-        top: 116px;
-        left: 158px;
+        top: 79px;
+    left: 76px;
+    }
+
+    .availpoints{
+        font-size: 9px;
     }
 
     .earnmore {
@@ -286,4 +320,22 @@ body{
     .itemtwo{
         margin-top: 20px;
     }
+
+    .gifttitle{
+        font-size: 11px;
+    }
+
+    .earnpointcnt{
+        font-size: 13px;
+    }
+
+    .earnuptoimg{
+        height: 164px;
+    }
+
+    .earnuptoimg1{
+        height: 174px;
+    }
 }
+
+
