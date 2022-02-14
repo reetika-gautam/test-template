@@ -41,6 +41,10 @@ body{
 
 .earnhead{
     font-weight: 700;
+    text-align: center;
+    padding-top: 78px;
+    font-size: 19px;
+    color: #ff8a23;
 }
 
 .onclkbtn{
@@ -150,9 +154,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-clip: content-box;
+    /* background-clip: content-box; */
     padding-bottom: 20px;
-    height: 200px;
+    height: 182px;
     margin-top: 10px;
 }
 
@@ -161,19 +165,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-clip: content-box;
+    /* background-clip: content-box; */
     padding-bottom: 20px;
-    height: 200px;
+    height: 182px;
     margin-top: 10px;
-    /* background-image: url("../img/123.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-clip: content-box;
-    padding-bottom: 20px;
-    height: 193px;
-    border-radius: 5px;
-    margin-top: 10px; */
 }
 
 .columnsec{
@@ -189,7 +184,7 @@ body{
     background-position: top;
     background-clip: content-box;
     padding-bottom: 20px;
-    height: 193px;
+    height: 177px;
     border-radius: 5px;
     margin-top: 10px;
     
@@ -209,7 +204,38 @@ body{
     font-size: 20px;
 }
 
+.cardone{
+    margin-left: 10px;
+    width: 420px;
+}
+
+.cardtwo{
+    margin-left: 14px;
+    width: 420px;
+}
+
+.cardthree{
+    margin-left: 18px;
+    width: 420px;
+}
+
 @media (max-width: 1199px){
+
+    .cardone{
+        margin-left: 10px;
+        width: 364px;
+    }
+
+    .cardthree{
+        margin-left: 18px;
+        width: 364px;
+    }
+
+    .cardtwo{
+        margin-left: 14px;
+        width: 364px;
+    }
+
     .pointsec {
         top: 19px;
         left: 444px;
@@ -219,16 +245,19 @@ body{
         font-size: 136px;
     }
 
-    .earnuptoctnt {
+    /* .earnuptoctnt {
         top: 95px;
         left: 91px;
-    }
+    } */
 }
 
 @media (max-width: 991px) { 
     .rewardsec{
         height: 100pc;
     }
+
+    
+
     .pointsec {
         top: 42px;
         left: 387px;
@@ -252,10 +281,10 @@ body{
         margin-left: 0px;
     }
 
-    .earnuptoctnt {
+    /* .earnuptoctnt {
         top: 105px;
         left: 136px;
-    }
+    } */
 
     .earnmore{
         padding-left: 10px;
@@ -263,7 +292,7 @@ body{
         border-radius: 14px;
 }
     }
-}
+
 
 @media (max-width: 767px){
     .pointsec {
@@ -284,10 +313,10 @@ body{
         height: 227px;
     }
 
-    .earnuptoctnt {
+    /* .earnuptoctnt {
         top: 112px;
         left: 57px;
-    }
+    } */
 
     .earnmore{
         height: 232px;
@@ -304,13 +333,14 @@ body{
         font-size: 136px;
     }
 
-    .earnuptoctnt {
+    /* .earnuptoctnt {
         top: 79px;
     left: 76px;
-    }
+    } */
 
     .availpoints{
         font-size: 9px;
+
     }
 
     .earnmore {
