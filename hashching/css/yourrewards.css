@@ -18,7 +18,7 @@ body{
 }
 
 .earnpointcnt{
-    font: normal normal normal 14px/27px Arial;
+    font: normal normal normal 17px/25px Arial;
 }
 
 .earnpointtitle{
@@ -138,7 +138,7 @@ body{
     height: 97px;
 }
 .pointbanner{
-    background-image: url("../img/Group 380.svg");
+    background-image: url("../img/pointsBanner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -146,13 +146,13 @@ body{
     /* padding-bottom: 20px; */
     /* height: 270px; */
     margin-top: 10px;
-    border-radius: 16px;
+    
 }
 
 .earnuptoimg{
-    background-image: url("../img/Group 455.svg");
+    background-image: url("../img/survey-point.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     /* background-clip: content-box; */
     padding-bottom: 20px;
@@ -160,31 +160,18 @@ body{
     margin-top: 10px;
 }
 
-.earnuptoimg1{
-    background-image: url("../img/123.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    /* background-clip: content-box; */
-    padding-bottom: 20px;
-    height: 182px;
-    margin-top: 10px;
-}
 
 .columnsec{
     --bs-gutter-x: 0px;
 }
 .earnmore{
-    /* width: 355px; */
-    /* height: 157px;
-    border-radius: 4px; */
     background-image: url("../img/123.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-clip: content-box;
     padding-bottom: 20px;
-    height: 177px;
+    height: 180px;
     border-radius: 5px;
     margin-top: 10px;
     
@@ -243,6 +230,14 @@ body{
 
     .pointint{
         font-size: 136px;
+    }
+
+    .gifttitle{
+        font-size: 11px;
+    }
+
+    .availpoints{
+        font-size: 10px;
     }
 
     /* .earnuptoctnt {
