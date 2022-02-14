@@ -24,6 +24,7 @@ body{
 .earnpointtitle{
     font-size: 17px;
     font-weight: 700;
+    color: #ff8a23;
 }
 
 .earnuptoctnt{
@@ -49,6 +50,7 @@ body{
 
 .onclkbtn{
     color: #ff8a23 !important;
+    background-color: white !important;
 }
 
 .indlist{
@@ -209,18 +211,17 @@ body{
 @media (max-width: 1199px){
 
     .cardone{
-        margin-left: 10px;
-        width: 300px;
+        
+        width: auto;
     }
 
     .cardthree{
-        margin-left: 18px;
-        width: 300px;
+        
+        width: auto;
     }
 
     .cardtwo{
-        margin-left: 14px;
-        width: 300px;
+        width: auto;
     }
 
     .pointsec {
@@ -240,6 +241,10 @@ body{
         font-size: 10px;
     }
 
+    .earnpointcnt {
+        font: normal normal normal 12px/23px Arial;
+    }
+
     /* .earnuptoctnt {
         top: 95px;
         left: 91px;
@@ -248,20 +253,27 @@ body{
 
 @media (max-width: 991px) { 
 
-    .cardone{
-        margin-left: 10px;
-        width: 470px;
+    .redecnt{
+        padding-top: 19px;
     }
 
-    .cardthree{
-        margin-left: 10px;
-        width: 470px;
+    .redeembtn{
+        padding-top: 21px;
+    }
+
+    .cardone{
+        margin-top: 15px;
+        width: auto;
+    }
+
+    .cardthree{    
+        width: auto;
         margin-top: 15px;
     }
 
     .cardtwo{
-        margin-left: 14px;
-        width: 470px;
+        width: auto;
+        margin-top: 15px;
     }
 
     .rewardsec{
@@ -280,7 +292,7 @@ body{
     }
 
     .earnuptoimg{
-        height: 210px;
+        height: 201px;
         background-size: contain;
     }
 
@@ -302,6 +314,18 @@ body{
         padding-left: 5px;
        
 }
+
+    .availpoints{
+        font-size: 12px;
+    }
+
+    .earnhead{
+        padding-top: 90px;
+    }
+
+    .gifttitle{
+        font-size: 16px;
+    }
     }
 
 
@@ -321,7 +345,7 @@ body{
     }
 
     .earnuptoimg1{
-        height: 227px;
+        height: 237px;
     }
 
     /* .earnuptoctnt {
