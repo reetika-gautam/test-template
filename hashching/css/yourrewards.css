@@ -17,8 +17,13 @@ body{
     margin-left: -12px;
 }
 
+.redecnt{
+    padding-top: 47px;
+    padding-left: 46px;
+}
 .earnpointcnt{
-    font: normal normal normal 17px/25px Arial;
+    font: normal normal normal 15px/25px Arial;
+    color: #223A53;
 }
 
 .earnpointtitle{
@@ -55,6 +60,10 @@ body{
 
 .indlist{
     list-style: none;
+}
+
+.availpoints{
+    font-size: 12px;
 }
 
 .staricon{
@@ -196,16 +205,19 @@ body{
 .cardone{
     margin-left: 10px;
     width: 420px;
+    border-radius: 8px;
 }
 
 .cardtwo{
     margin-left: 14px;
     width: 420px;
+    border-radius: 8px;
 }
 
 .cardthree{
     margin-left: 18px;
     width: 420px;
+    border-radius: 8px;
 }
 
 @media (max-width: 1199px){
@@ -364,8 +376,32 @@ body{
         left: 179px;   
     }
 
+    .availpoints{
+        font-size: 8px;
+    }
+
+    .redeembtn {
+        padding-top: 0px;
+    }
+
+    .gifttitle {
+        font-size: 12px;
+    }
+
     .pointint{
         font-size: 136px;
+    }
+
+    .cardone{
+        margin: 15px 10px;
+    }
+
+    .cardtwo{
+        margin: 15px 10px;
+    }
+
+    .cardthree{
+        margin: 15px 10px;
     }
 
     /* .earnuptoctnt {
@@ -375,7 +411,10 @@ body{
 
     .availpoints{
         font-size: 9px;
+    }
 
+    .earnhead {
+        padding-top: 58px;
     }
 
     .earnmore {
