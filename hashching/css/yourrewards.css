@@ -223,17 +223,17 @@ body{
 
     .cardone{
         margin-left: 10px;
-        width: 364px;
+        width: 300px;
     }
 
     .cardthree{
         margin-left: 18px;
-        width: 364px;
+        width: 300px;
     }
 
     .cardtwo{
         margin-left: 14px;
-        width: 364px;
+        width: 300px;
     }
 
     .pointsec {
@@ -252,6 +252,23 @@ body{
 }
 
 @media (max-width: 991px) { 
+
+    .cardone{
+        margin-left: 10px;
+        width: 470px;
+    }
+
+    .cardthree{
+        margin-left: 10px;
+        width: 470px;
+        margin-top: 15px;
+    }
+
+    .cardtwo{
+        margin-left: 14px;
+        width: 470px;
+    }
+
     .rewardsec{
         height: 100pc;
     }
@@ -287,9 +304,8 @@ body{
     } */
 
     .earnmore{
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 14px;
+        padding-left: 5px;
+       
 }
     }
 
