@@ -82,6 +82,23 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 19px;
 }
 
+.tabslct{
+    color: black !important;
+    
+}
+
+.tabsec a:active{
+    background-color: #D3D3D3 !important;
+    color: #FFA101 !important;
+}
+
+.tabsec{
+    justify-content: space-around;
+    border-bottom: 1px solid #D3D3D3;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
 @media (max-width: 1200px) { }
 
 @media (max-width: 992px) {  }
