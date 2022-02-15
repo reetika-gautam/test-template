@@ -1,3 +1,11 @@
+body { 
+    font-family: Montserrat, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Montserrat, sans-serif !important;
+    }
+
 .insurancebanner{
     background-image: url("../img/banner.PNG");
     background-size: cover;
@@ -17,7 +25,8 @@
     padding: 10px 52px;
     background-color: #FFA101;
     font-size: 20px;
-    margin-top: 63px;
+    margin-top: 51px;
+    margin-bottom: 21px;
 }
 
 .bannerheading{
@@ -28,11 +37,12 @@
 
 .bannertitle{
     font-weight: 400;
+    font-size: 21px
 }
 
 .logostyle{
-    width: 223px;
-    margin-top: 58px;
+    width: 245px;
+    margin-top: 74px;
 }
 
 .protcttitle{
@@ -67,3 +77,9 @@
     font-size: 18px;
     padding-top: 19px;
 }
+
+@media (max-width: 576px) {
+    .logostyle{
+        width: 207px;
+    }
+ }
