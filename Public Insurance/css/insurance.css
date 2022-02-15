@@ -42,12 +42,16 @@ h1, h2, h3, h4, h5, h6{
 
 .logostyle{
     width: 245px;
-    margin-top: 74px;
+    margin-top: 63px;
 }
 
 .protcttitle{
     font-size: 46px;
     color: black;
+}
+
+.protctsec{
+    margin-top: 60px;
 }
 
 .middlesec{
