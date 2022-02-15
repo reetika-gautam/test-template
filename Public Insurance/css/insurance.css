@@ -2,8 +2,6 @@
     background-image: url("../img/banner.PNG");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
 .bannercontent{
@@ -49,4 +47,23 @@
 .protctpara{
     font: normal normal normal 19px/22px Montserrat;
     padding-top: 15px;
+}
+
+.cacontent{
+    color: #FFA101;
+    font-size: 26px;
+    padding-top: 22px;
+}
+
+.imgcnt{
+    padding-left: 104px;
+}
+
+.imgpara{
+    padding-top: 20px;
+}
+
+.imgtitle{
+    font-size: 18px;
+    padding-top: 19px;
 }
