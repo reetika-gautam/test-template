@@ -1,0 +1,52 @@
+.insurancebanner{
+    background-image: url("../img/banner.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.bannercontent{
+    background-color: #DCDCDC;
+    padding-left: 40px;
+}
+
+.hghwrd{
+    color: #ff8a23;
+}
+
+.requestbutton{
+    padding: 10px 52px;
+    background-color: #FFA101;
+    font-size: 20px;
+    margin-top: 63px;
+}
+
+.bannerheading{
+    padding: 54px 0px 10px 0px;
+    color: black;
+    font-weight: 700;
+}
+
+.bannertitle{
+    font-weight: 400;
+}
+
+.logostyle{
+    width: 223px;
+    margin-top: 58px;
+}
+
+.protcttitle{
+    font-size: 46px;
+    color: black;
+}
+
+.middlesec{
+    padding: 95px 0px;
+}
+
+.protctpara{
+    font: normal normal normal 19px/22px Montserrat;
+    padding-top: 15px;
+}
