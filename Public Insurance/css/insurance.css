@@ -136,11 +136,46 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .querylist{
-    list-style: decimal;
+    list-style: none;
 }
 
 .querylist::marker{
     background-color: #FFC727 !important;
+}
+
+.queryno{
+    background: #ffcc00;
+    display: inline-block;
+    width: 30px;
+    padding-top: 5px;
+    color: white;
+    height: 30px;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.qurylistcnt{
+    padding-left: 39px;
+}
+
+.qurylistone{
+    left: -2px;
+    top: -4px;
+}
+
+.qurylisttwo{
+    left: -2px;
+    top: -4px;
+}
+
+.qurylistthree{
+    left: -2px;
+    top: -4px;
 }
 
 
