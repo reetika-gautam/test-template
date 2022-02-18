@@ -1,0 +1,477 @@
+body { 
+    font-family: Montserrat, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Montserrat, sans-serif !important;
+    }
+
+.singleLandingPage {
+    padding-top: 146px;
+}
+
+.singleLandingPage .stickyImg {
+
+    display: none;
+}
+
+.bannerSection {
+    background-color: #DCDCDC;
+}
+
+.insurancebanner {
+    background-image: url("../hash-insure/landing-banner.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    /* background-color: #dcdcdc; */
+    min-height: 510px;
+
+}
+
+.bannercontent {
+    /* background-color: #DCDCDC; */
+    padding-left: 35px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.bannercontent .requestbutton {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 35px;
+}
+
+.hghwrd {
+    color: #ff8a23;
+}
+
+.listingSection {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.listingSection .requestbutton {
+    margin-top: 51px;
+    margin-bottom: 0px;
+}
+
+.requestbutton {
+    padding: 12px 40px;
+    background-color: #FFA101;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.bannerheading {
+    padding: 60px 0 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.bannertitle {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.logostyle {
+    height: 55px;
+}
+
+.protcttitle {
+    font-size: 47px;
+    color: #000;
+}
+
+.protctsec {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.middlesec {
+    padding: 95px 0px;
+}
+
+.protctpara {
+
+    padding-top: 15px;
+}
+
+.imgcnt {
+    padding-left: 90px;
+    padding-top: 25px;
+}
+
+.imgcnt .heading {
+    color: #FFA101;
+    font-size: 26px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.landingPageContnt p.subhead {
+    padding-top: 30px;
+}
+
+.tab-content .description {
+    padding-top: 20px;
+}
+
+.tab-content .description p {
+    margin-top: 20px;
+}
+
+.landingPageContnt p {
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+    line-height: normal;
+}
+
+.listingSection ul.list-group {
+    margin-bottom: 15px;
+}
+
+.imgtitle {
+    font-size: 18px;
+    padding-top: 19px;
+}
+
+.tabsec {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.navtabpart .nav-pills .nav-link.active,
+.navtabpart .show>.nav-pills .nav-link {
+    color: #FFA101;
+    background-color: #E4E4E4;
+}
+
+.navtabpart .nav-pills .nav-link.active:first-child {
+    border-top-left-radius: 5px;
+}
+
+.navtabpart .nav-pills .nav-link.active:last-child {
+    border-top-right-radius: 5px;
+}
+
+.tabslct {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 10px;
+    line-height: normal;
+}
+
+.navtabpart .nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.enqirytitle {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.landingPageContnt p.enqirycnt {
+    font-size: 16px;
+
+}
+
+.navtabpart {
+    background-color: #F7F7F8;
+
+    border-radius: 5px;
+}
+
+.navtabpart .tab-content {
+    padding: 60px 60px 30px;
+    border-radius: 5px;
+}
+
+.landingPageContnt .disclaimersec p {
+    color: black;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.disclaimrcnt a {
+    color: #ff8a23;
+}
+
+.disclaimrcnt span {
+    font-weight: 500;
+}
+
+.landingPageContnt .disclaimersec p.disclaimrcnt {
+    margin-bottom: 10px;
+}
+
+
+.querylist {
+    position: relative;
+    padding-left: 45px;
+    margin-top: 45px;
+	    list-style: none;
+}
+
+.querylist::marker {
+    display: none;
+}
+
+.disclaimersec {
+    padding-bottom: 30px;
+}
+
+
+.customCircle {
+    background: #FFA101;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 17px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+.customDigit {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+img.arows {
+    position: absolute;
+    left: 9px;
+}
+
+img.arows.lightArow {
+    bottom: -11px;
+}
+img.arows.darkArow {
+    bottom: -21px;
+}
+.terms-text {
+    font-size: 13px;
+    color: #888;
+    margin-top: 50px;
+}
+.terms-points {
+    padding-left: 20px;
+}
+.terms-points li {
+    list-style: decimal;
+    padding-left: 12px;
+    margin: 0;
+}
+
+
+
+
+
+
+@media (max-width:1365px) {}
+
+
+@media (max-width:1199px) {
+
+    .singleLandingPage {
+        padding-top: 74px;
+    }
+
+    .insurancebanner {
+        background-position: center;
+    }
+
+    .bannerheading {
+        font-size: 30px;
+        padding: 50px 0 10px;
+    }
+
+    .bannertitle {
+
+        font-size: 22px;
+        line-height: normal;
+    }
+
+
+}
+
+@media (max-width:991px) {
+
+    .imgcnt .heading br {
+        display: none;
+    }
+
+    .landingPageContnt p {
+        font-size: 14px;
+    }
+    .imgcnt {
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .landingPageContnt p.subhead {
+        padding-top: 5px;
+    }
+    .imgcnt .heading {
+        font-size: 20px;
+    }
+    .tab-content .description p {
+        /* margin-top: 0; */
+    }
+    .tab-content .description {
+        padding-top: 0;
+    }
+    .navtabpart .tab-content {
+        padding: 60px 40px 30px;
+    }
+
+
+
+}
+
+@media (max-width:800px) {
+
+    .bannerheading {
+        font-size: 27px;
+        padding: 35px 0 10px;
+    }
+    .bannercontent {
+        padding-top: 35px;
+    }
+    .logostyle {
+        height: 45px;
+    }
+    .bannertitle {
+        font-size: 20px;
+    }
+    .requestbutton {
+        font-size: 20px;
+    }
+    .insurancebanner {
+        min-height: 450px;
+    }
+    .protcttitle {
+        font-size: 35px;
+    }
+    .enqirytitle {
+        font-size: 17px;
+    }
+    .tabslct {
+        font-size: 16px;
+    }
+    .landingPageContnt p.enqirycnt {
+        font-size: 14px;
+    }
+    .landingPageContnt .disclaimersec p {
+        font-size: 12px;
+    }
+
+    .protctsec, .listingSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .insurancebanner {
+        background-size: cover;
+    }
+    .bannercontent {
+        padding: 35px;
+    }
+    .bannercontent .requestbutton {
+        margin-top: 35px;
+        position: inherit;
+        bottom: inherit;
+    }
+    .landingPageContnt .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:567px) {
+    .tab-content
+    {
+        text-align: center;
+    }
+    .tabslct {
+        font-size: 14px;
+    }
+    .tab-pane .media {
+        display: block;
+    }
+    .imgcnt {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .navtabpart .tab-content {
+        padding: 40px 15px 30px;
+    }
+    .tab-content .media {
+        display: block;
+    }
+    .tab-content .media img {
+        margin-right: 0px !important;
+        width: auto;
+        height: 100%;
+        text-align: center;
+    }
+    .protcttitle {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width:480px) {}
+
+@media (max-width:479px) {}
+
+
+@media (max-width:400px) {
+    .singleLandingPage {
+        padding-top: 65px;
+    }
+
+    .bannercontent {
+        padding: 20px 15px;
+        text-align: center;
+    }
+    .bannerheading {
+        font-size: 24px;
+    }
+    .bannertitle {
+        font-size: 18px;
+    }
+    .requestbutton {
+        font-size: 18px;
+    }
+    .protctsec {
+        text-align: center;
+    }
+
+     .navtabpart .nav-pills {
+        display: block !important;
+        overflow: hidden;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .navtabpart .nav-pills .nav-link {
+        display: inline-block;
+        padding: 12px 20px;
+    }
+
+}

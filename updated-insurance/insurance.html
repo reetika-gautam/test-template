@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/insurance.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+    <title>Insurance</title>
+	<!-- [if lt IE 9]>
+      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    [endif]-->
+</head>
+
+<body>
+    <!--banner section start-->
+   <div class="mainsection">
+            <div class="bannerSection">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-6 insurancebanner p-0">
+                            
+                        </div>
+                        <div class="col-lg-5 col-md-6 bannercontent">
+                            <img class="logostyle" src="hash-insure/hashInsure-logo.png"
+                                alt="hash-insure logo" />
+                            <h2 class="bannerheading">Tailored <span class="hghwrd">insurance</span><br> solutions to
+                                meet
+                                your<br>
+                                every need.
+                            </h2>
+                            <p class="bannertitle">Affordable coverage that you can trust</p>
+                            <button class="text-white btn requestbutton font-weight-bold" data-toggle="modal"
+                                data-target="#submitHashInsure" ng-click="loadpageHI();">
+                                Submit request
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <!--protection tab section start-->
+            <div class="landingPageContnt">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="protctsec">
+                                <h2 class="protcttitle text-center font-weight-bold">Protect what matters most.</h2>
+                                <p class="protctpara text-center">We’ve partnered with reputable and experienced Australian
+                                    insurance
+                                    brokers
+                                    to bring you the best insurance solutions and the highest level of protection available.
+                                    Whether you’re looking to protect your home, your rental property, your business, or
+                                    your
+                                    online presence - we’ve got you covered.
+                                </p>
+                            </div>
+                            <div class="navtabpart">
+                                <nav class="nav nav-pills nav-justified tabsec" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link tabslct active" id="cy-ber" data-toggle="tab" href="#cyber"
+                                        role="tab" aria-controls="cyber" aria-selected="true">Cyber</a>
+                                    <a class="nav-item nav-link tabslct" id="land-lords" data-toggle="tab" href="#landlords"
+                                        role="tab" aria-controls="Landlords" aria-selected="false">Landlords</a>
+                                    <a class="nav-item nav-link tabslct" id="ho-mes" data-toggle="tab" href="#homes"
+                                        role="tab" aria-controls="home" aria-selected="false">Home</a>
+                                    <a class="nav-item nav-link tabslct" id="busi-ness" data-toggle="tab" href="#business"
+                                        role="tab" aria-controls="business" aria-selected="false">Business
+                                    </a>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="cyber" role="tabpanel"
+                                        aria-labelledby="cy-ber">
+                                        <div class="media ">
+                                            <img class="align-self-center "
+                                                src="hash-insure/cyber.svg" alt="cyber">
+                                            <div class="media-body imgcnt">
+                                                <h5 class="mt-0 heading">Protect your online presence</h5>
+                                                <p class="subhead">The ever-increasing presence of technology in our
+                                                    daily lives has created new challenges for businesses and individuals
+                                                    alike.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                Cyber insurance can cover you or your business for
+                                                technology-related
+                                                incidents such as data breaches, viruses, network hacking,
+                                                employee error, and more. Cyber Insurance can help cover the costs of
+                                                business
+                                                downtime,
+                                                IT
+                                                forensics, credit monitoring, and cyber
+                                                extortion costs – even including ransom payments to hackers.
+                                            </p>
+                                            <p>
+                                                It can also cover your
+                                                liability to third parties if you fail to keep
+                                                data secure, including claims against you for compensation, investigation
+                                                costs,
+                                                defence
+                                                costs and fines and penalties.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="landlords" role="tabpanel" aria-labelledby="land-lords">
+                                        <div class="media ">
+                                            <img class="align-self-center "
+                                                src="hash-insure/landlords.svg" alt="landlords">
+                                            <div class="media-body imgcnt">
+                                                <h5 class="mt-0 heading">Protection for your assets and <br /> your rental
+                                                    income.
+                                                </h5>
+                                                <p class="subhead">Just because you aren’t living on a property
+                                                    doesn’t
+                                                    mean
+                                                    you should put any less thought into protecting it.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <p>Landlords insurance can cover you for both scenarios that might arise
+                                                with
+                                                any other primary
+                                                property as well as rental-specific incidents. Speak with our partner broker
+                                                to find
+                                                an
+                                                insurance
+                                                solution that meets your needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="homes" role="tabpanel" aria-labelledby="ho-mes">
+                                        <div class="media ">
+                                            <img class="align-self-center "
+                                                src="hash-insure/home.svg" alt="home">
+                                            <div class="media-body imgcnt">
+                                                <h5 class="mt-0 heading">Peace of mind protection for <br /> your most
+                                                    valuable
+                                                    asset.
+                                                </h5>
+                                                <p class="subhead">Protecting your home and belongings is one of the
+                                                    most
+                                                    important
+                                                    things you can do.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <p>The tailored insurance solutions offered through our partner brokers
+                                                will
+                                                allow you to protect
+                                                either or both at an affordable and competitive price.
+                                            <p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="busi-ness">
+                                        <div class="media ">
+                                            <img class="align-self-center "
+                                                src="hash-insure/business.svg" alt="business">
+                                            <div class="media-body imgcnt">
+                                                <h5 class="mt-0 heading">Tailored solutions for every <br /> business.
+                                                </h5>
+                                                <p class="subhead">
+                                                    Regardless of what type of business you’re in, getting the right
+                                                    coverage is crucial.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <p>Our partner insurance professionals can tailor business insurance solutions
+                                                that work
+                                                for you
+                                                and your company.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listingSection">
+                                <ul class="list-group">
+                                    <li class="querylist">
+
+                                        <span class="customCircle">
+                                            <span class="customDigit">1</span>
+                                            <img class="arows lightArow"
+                                                src="hash-insure/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow"
+                                                src="hash-insure/dark-down-arrow.svg" alt="arrow" />
+                                        </span>
+
+
+                                        <h5 class="enqirytitle">Submit your enquiry</h5>
+                                        <p class="enqirycnt">Get started with a few simple details, and we’ll
+                                            put you in touch with our partner insurance brokers.
+                                        </p>
+                                    </li>
+                                    <li class="querylist">
+
+                                        <span class="customCircle">
+                                            <span class="customDigit">2</span>
+                                            <img class="arows lightArow"
+                                                src="hash-insure/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow"
+                                                src="hash-insure/dark-down-arrow.svg" alt="arrow" />
+                                        </span>
+
+
+                                        <h5 class="enqirytitle">Tell us about your needs</h5>
+                                        <p class="enqirycnt">You’ll be presented with an enquiry from to let our
+                                            partner insurance brokers find out a little more about you
+                                            and your needs, so they can provide you with an accurate quote.
+                                        </p>
+                                    </li>
+                                    <li class="querylist">
+
+                                        <span class="customCircle">
+                                            <span class="customDigit">3</span>
+                                            <img class="arows lightArow"
+                                                src="hash-insure/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow"
+                                                src="hash-insure/dark-down-arrow.svg" alt="arrow" />
+                                        </span>
+
+
+                                        <h5 class="enqirytitle">Get an offer</h5>
+                                        <p class="enqirycnt">Our partner brokers will present you with a quote based on
+                                            the
+                                            information you’ve provided. If you like the quote, they’ll go
+                                            ahead and finalise everything with the insurance company for you.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <button class="text-white btn requestbutton font-weight-bold" data-toggle="modal"
+                                    data-target="#submitHashInsure" ng-click="loadpageHI();">
+                                    Submit request
+                                </button>
+                            </div>
+                            <div class="disclaimersec">
+                                <p class="disclaimrtitle"><strong>Disclaimer</strong></p>
+                                <p class="disclaimrcnt"><span>General Advice Warning:</span>
+                                    This advice is general and does not take
+                                    into account your objectives, financial situation or needs. You should consider
+                                    whether the advice is appropriate for you and your personal circumstances.
+                                    Before you make any decision about whether to acquire a certain product,
+                                    you should obtain and read the relevant product disclosure statement.
+                                </p>
+                                <p class="disclaimrcnt">
+                                    Hashching insurance (HashInsure) is provided through certified partner
+                                    insurance broker
+                                    <a target="_blank" href="https://www.ii-a.com.au/">ii-A</a>. Hashching does not provide
+                                    any insurance service
+                                    directly, nor can any Hashching employee provide any advice regarding insurance.
+                                    By submitting an enquiry you agree to your details being forwarded to our
+                                    partner insurance broker.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	
+	
+</body>
+
+</html>
