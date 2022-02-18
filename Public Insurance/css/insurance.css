@@ -67,14 +67,15 @@ h1, h2, h3, h4, h5, h6{
     color: #FFA101;
     font-size: 26px;
     padding-top: 22px;
+    font-weight: 700;
 }
 
 .imgcnt{
-    padding-left: 104px;
+    padding: 0px 74px;
 }
 
 .imgpara{
-    padding-top: 20px;
+    padding: 25px 84px;
 }
 
 .imgtitle{
@@ -92,11 +93,34 @@ h1, h2, h3, h4, h5, h6{
     color: #FFA101 !important;
 }
 
-.tabsec{
-    justify-content: space-around;
-    border-bottom: 1px solid #D3D3D3;
-    margin-left: 29px;
-    margin-right: 29px;
+.tabimage{
+    padding-left: 80px;
+}
+
+.btnlink{
+    color: black;
+    font-weight: 700;
+    padding: 8px 100px;
+}
+
+.btnlink.active{
+    color: #FFA101 !important;
+    background-color: #E4E4E4 !important;
+
+}
+
+.btnlink.active:hover{
+    color: #FFA101 !important;
+
+}
+
+.btnlink:hover{
+    color: black !important;
+}
+
+.tabhead{
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 50px;
 }
 
 .enqirytitle{
@@ -112,6 +136,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navtabpart{
     background-color: #F7F7F8aa;
+    padding-top: 95px;
 }
 
 .disclaimrtitle{
@@ -188,6 +213,11 @@ h1, h2, h3, h4, h5, h6{
 
     .protcttitle{
         font-size: 40px;
+    }
+
+    .imgcntsec{
+        display: flex;
+        /* display: inline; */
     }
  }
 
